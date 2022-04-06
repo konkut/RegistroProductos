@@ -1,0 +1,51 @@
+#contenedor{
+	display: flex;
+	background: #bbb;
+	width: fit-content;
+	padding: 0.5rem;
+	margin: auto;
+	justify-content: flex-center;
+	flex-direction: column;
+}
+input{
+	width: 100%;
+	padding: 0.5rem 0.5rem;
+	box-sizing: border-box;
+}
+p{
+	margin: 0.4rem 0.6rem;
+}
+input,textarea{
+	outline: none;
+	border: none;
+}
+input[type="submit"]{
+	color: #fff;
+	background: linear-gradient(to right,#0cf, #07f, #05e);
+	padding: 0.4rem;
+	justify-content: flex-center;
+}
+#title{
+	text-align: center;
+	line-height: 0.4rem;
+}
+#remenber{
+	width: 10%;
+}
+span{
+	display: flex;
+	display: inline-block;
+	box-sizing: border-box;
+	background: #0bf;
+	padding: 0.6rem;
+	justify-content:  flex-center;
+	align-items: center;
+
+}
+p a{
+    color: #0bf;
+    font-size: 20px;
+    
+    display: inline-block;
+    padding-top: 30px;
+}
